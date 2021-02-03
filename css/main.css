@@ -92,6 +92,7 @@ nav div ul li{
 
 .button{
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .big{
@@ -248,9 +249,8 @@ nav div ul li{
 }
 
 .aside{
-  padding-bottom: 20px;
   width: 30%;
-  height: 500px;
+  height: 625px;
   background-color: white;
   float: left;
   text-align: center;
@@ -258,7 +258,18 @@ nav div ul li{
 
 .aside img{
   width: 35%;
+  height: 100px;
   object-fit: contain;
+  margin: 15px 0;
+}
+
+.aside h3{
+  margin-bottom: 25px;
+}
+
+.aside p{
+  line-height: 1.6;
+  padding-bottom: 60px;
 }
 
 .aside li{
@@ -266,16 +277,40 @@ nav div ul li{
   text-align: left;
 }
 
+.aside span{
+  display: block;
+  font-weight: bold;
+  padding: 25px 0;
+}
+
+.aside i{
+  margin-right: 15px;
+}
+
+.aside .line{
+  width: 80%;
+  margin-left: 0;
+}
+
+.colbott{
+  margin-top: 65px;
+}
+
 #sfondotabella{
-  background-color: #07aeae;
-  padding: 100px;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   color: white;
+  padding: 50px 0;
   text-align: center;
+}
+
+#sfondotabella h3{
+  font-size: 35px;
 }
 
 #sfondotabella p{
   padding-top: 40px;
   padding-bottom: 40px;
+  font-size: 20px;
 }
 
 .table{
@@ -284,8 +319,36 @@ nav div ul li{
 
 .square{
   width: 25%;
+  height: 180px;
   float: left;
   border: 1px solid white;
+}
+
+.square img{
+  margin: 20px;
+  width: 30%;
+  height: 35px;
+  object-fit: contain;
+}
+
+.square h3{
+  font-size: 40px;
+}
+
+.notopb{
+  border-top: 0;
+}
+
+.nobottb{
+  border-bottom: 0;
+}
+
+.noleftb{
+  border-left: 0;
+}
+
+.norightb{
+  border-right: 0;
 }
 
 #sponsor{
