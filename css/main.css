@@ -193,7 +193,7 @@ nav div ul li{
   float: left;
 }
 
-.blocktopleftinner{
+.blocktopleftinner,.asideinner{
   width: 50%;
   position: relative;
   top: 50%;
@@ -217,4 +217,44 @@ nav div ul li{
 
 .blocktoprightinner ul li{
   display: inline-block;
+}
+
+.fa-check-circle{
+  color: #f0835d;
+}
+
+#containeraside{
+  width: 80%;
+}
+.aside:nth-child(2){
+  margin: 0 5%;
+}
+
+.aside{
+  width: calc(89.4%/3);
+  height: 800px;
+  background-color: white;
+  display: inline-block;
+}
+
+#sfondotabella{
+  background-color: #07aeae;
+  padding: 100px;
+  color: white;
+  text-align: center;
+}
+
+#sfondotabella p{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.table{
+  width: 100%;
+}
+
+.square{
+  width: 25%;
+  float: left;
+  border: 1px solid white;
 }
