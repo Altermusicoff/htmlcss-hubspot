@@ -274,5 +274,8 @@ nav div ul li{
 
 .sponsorimage{
   float: left;
+}
+
+.sponsorspace{
   display: inline-block;
 }
