@@ -5,3 +5,205 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container{
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 855px;
+
+}
+
+nav{
+  width: 100%;
+  height: 80px;
+}
+
+.navbar{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+#navup{
+  padding-top: 10px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid rgb(44, 64, 81);
+}
+
+.center{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#navdown{
+  background-color: white;
+}
+
+.navleft{
+  padding-top: 20px;
+  float: left;
+}
+
+.navright{
+  float: right;
+  margin: 3px 0;
+}
+
+.navright2{
+  height: 80px;
+  padding-top: 30px;
+  margin: auto 0;
+}
+
+.navright2 ul li{
+  padding-left: 10px;
+}
+
+nav div ul li{
+  margin-right: 0;
+  display: inline-block;
+}
+
+.button{
+  border-radius: 5px;
+}
+
+.big{
+  padding: 15px 23px;
+}
+
+.whitebt{
+  background-color: white;
+  border: 1px solid #fe775a;
+  color: #fe775a;
+}
+
+.orangebt{
+  background-color: #fe775a;
+  color: white;
+}
+
+.fas.fa-search{
+  color: #27b2c8;
+  padding-right: 17px;
+}
+
+#jumbotron{
+  background-image: url(../img/jumbotron.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #fef6ee;
+  width: 100%;
+  height: 695px;
+  position: relative;
+}
+
+.content{
+  padding-top: 77px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#jumbotron h1{
+  font-size: 55px;
+  font-weight: 500;
+  width: 45%;
+}
+
+#jumbotron p{
+  width: 52%;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+#jumbotron span{
+  display: block;
+  margin-top: 50px;
+}
+
+#jumbobar{
+  background-color: #7bded2;
+  border: 3px solid #33475c;
+  border-left: 0;
+  border-right: 0;
+  height: 83px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+#sfondoazzurro{
+  background-color: #f4f9fd;
+  padding-bottom: 100px;
+}
+
+#cubeimg{
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+  padding-top: 55px;
+  position: relative;
+}
+
+.cubetext{
+  padding-bottom: 20px;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+#blocktop{
+  width: 80%;
+  height: 500px;
+  background-color: white;
+  margin: 50px auto;
+  position: relative;
+}
+
+.blocktopleft{
+  width: 35%;
+  height: 500px;
+  float: left;
+  border-right: 2px solid;
+}
+
+.blocktopleftinner{
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.blocktoprightinner{
+  padding: 50% 0;
+}
+
+
+.blocktopleft img{
+  display: block;
+}
+
+.blocktopright{
+  height: 500px;
+  float: left;
+  margin-left: 0;
+}
