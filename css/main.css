@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+/*
+ palette sito
+#07aeae blue table
+#334b5c blue header
+#f0835d orange button
+#f2bc9d pink header
+ */
+
+
 .row::after {
   content: "";
   clear: both;
@@ -182,7 +191,6 @@ nav div ul li{
   width: 35%;
   height: 500px;
   float: left;
-  border-right: 2px solid;
 }
 
 .blocktopleftinner{
@@ -194,9 +202,8 @@ nav div ul li{
 }
 
 .blocktoprightinner{
-  padding: 50% 0;
+  padding: 200px 0;
 }
-
 
 .blocktopleft img{
   display: block;
@@ -206,4 +213,8 @@ nav div ul li{
   height: 500px;
   float: left;
   margin-left: 0;
+}
+
+.blocktoprightinner ul li{
+  display: inline-block;
 }
