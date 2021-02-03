@@ -160,7 +160,6 @@ nav div ul li{
 
 #sfondoazzurro{
   background-color: #f4f9fd;
-  padding-bottom: 100px;
 }
 
 #cubeimg{
@@ -225,6 +224,7 @@ nav div ul li{
 
 #containeraside{
   width: 80%;
+  padding-bottom: 40px;
 }
 .aside:nth-child(2){
   margin: 0 5%;
@@ -257,4 +257,22 @@ nav div ul li{
   width: 25%;
   float: left;
   border: 1px solid white;
+}
+
+#sponsor{
+  width: 60%;
+  margin: 30px auto;
+}
+
+.sponsorleft{
+  float: left;
+}
+
+.sponsorright{
+  float: right;
+}
+
+.sponsorimage{
+  float: left;
+  display: inline-block;
 }
