@@ -40,6 +40,7 @@ header{
 nav{
   width: 100%;
   height: 80px;
+  line-height: 80px;
 }
 
 .navbar{
@@ -49,7 +50,6 @@ nav{
 
 
 #navup{
-  padding-top: 10px;
   background-color: #f4f9fd;
   border-bottom: 1px solid rgb(44, 64, 81);
 }
@@ -64,18 +64,20 @@ nav{
 }
 
 .navleft{
-  padding-top: 20px;
   float: left;
+}
+
+.navleft img{
+  vertical-align: middle;
 }
 
 .navright{
   float: right;
-  margin: 3px 0;
 }
 
 .navright2{
   height: 80px;
-  padding-top: 30px;
+  line-height: 80px;
   margin: auto 0;
 }
 
@@ -180,24 +182,12 @@ nav div ul li{
 
 #blocktop{
   width: 80%;
-  height: 500px;
   background-color: white;
-  margin: 50px auto;
-  position: relative;
 }
 
 .blocktopleft{
   width: 35%;
-  height: 500px;
   float: left;
-}
-
-.blocktopleftinner,.asideinner{
-  width: 50%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .blocktoprightinner{
@@ -205,16 +195,15 @@ nav div ul li{
 }
 
 .blocktopleft img{
-  display: block;
+  text-align: center;
+  width: 35%;
 }
 
 .blocktopright{
-  height: 500px;
   float: left;
-  margin-left: 0;
 }
 
-.blocktoprightinner ul li{
+.blocktopright ul li{
   display: inline-block;
 }
 
@@ -224,17 +213,22 @@ nav div ul li{
 
 #containeraside{
   width: 80%;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
+
 .aside:nth-child(2){
   margin: 0 5%;
 }
 
 .aside{
-  width: calc(89.4%/3);
-  height: 800px;
+  width: 30%;
   background-color: white;
-  display: inline-block;
+  text-align: center;
+  float: left;
+}
+
+.aside img{
+  width: 35%;
 }
 
 #sfondotabella{
@@ -277,5 +271,6 @@ nav div ul li{
 }
 
 .sponsorspace{
+  width: 25%;
   display: inline-block;
 }
