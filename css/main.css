@@ -352,23 +352,173 @@ nav div ul li{
 }
 
 #sponsor{
-  width: 60%;
-  margin: 30px auto;
+  padding: 40px 0;
+  text-align: center;
 }
 
 .sponsorleft{
   float: left;
+  width: 30%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.sponsorleft h2{
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.sponsorleft p{
+  width: 50%;
+  color: grey;
+  margin: 0 0 0 165px;
+  line-height: 1.6;
 }
 
 .sponsorright{
-  float: right;
+  float: left;
+  width: 65%;
+  text-align: left;
+  margin-right: 5%;
 }
 
-.sponsorimage{
+.sponsorright img{
+  padding: 0 15px;
+  max-width: 20%;
+  margin: 2% 2%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.advleft{
+  width: 40%;
+  margin-top: 50px;
+  text-align: left;
   float: left;
 }
 
-.sponsorspace{
-  width: 25%;
+.advright{
+  width: 60%;
+  margin-top: 50px;
+  text-align: right;
+  float: left;
+}
+
+.advleft h2{
+  font-size: 35px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.advleft p,.advleft a{
+  text-decoration: none;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.advleft span{
+  display: block;
+  margin-top: 65px;
+}
+.advright img{
+  height: 350px;
+  width: auto;
+}
+
+.footer {
+  background-color: #32495b;
+  padding: 40px 0;
+  color: white;
+}
+
+.footer1 {
+  margin-right: 3%;
+  width: 20%;
+  float: left;
+}
+
+div.footer1 h4{
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+div.footer1 span{
+  display: block;
+  color: #f5f8fa;
+  margin-bottom: 10px;
+}
+
+div.footer1 span a{
+  color: rgb(206,218,225);
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footerbt{
+  margin: 10px 0;
+  background-color: rgb(206,218,225);
+  border-radius: 5px;
+  font-size: 15px;
+  color: #32495b;
+  height: 40px;
+  width: 200px;
+}
+
+.footer1 .contactbt{
+  padding: 20px 0;
+}
+
+.footer1 .icons{
+  padding: 10px 0;
+}
+
+.list-part {
+  text-align: center;
+}
+
+.list-part li{
+  color: white;
+}
+
+div.footer1 div i{
+  color: rgb(206,218,225);
+  margin-right: 25px;
+}
+
+div.footer div.center ul, div.footer div.center ul li a{
+  color: rgb(206,218,225);
+  margin-top: 100px;
+  text-decoration: none;
+  padding-right: 30px;
+}
+div.footer div.center ul, div.footer div.center ul li{
   display: inline-block;
+}
+
+.footer-line {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(206,218,225);
+}
+
+.footer2 {
+  width: 85%;
+  float: left;
+}
+
+.footer3 {
+  width: 15%;
+  float: left;
+}
+
+div.footer3 a{
+  color: rgb(206,218,225);
+  text-decoration: none;
+  margin-right: 20px;
 }
